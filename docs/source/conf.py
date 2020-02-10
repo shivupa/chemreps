@@ -51,6 +51,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.autosummary',
+    'sphinx.ext.imgconverter'
     # 'm2r',
 ]
 

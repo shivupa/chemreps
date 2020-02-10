@@ -1,3 +1,7 @@
+.. raw:: latex
+
+   \chapter{Installation}
+
 Install
 =======
 

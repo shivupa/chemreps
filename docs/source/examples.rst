@@ -1,3 +1,7 @@
+.. raw:: latex
+
+   \chapter{Example}
+
 Examples
 ===============
 
@@ -9,7 +13,12 @@ Coulomb Matrix
 The Coulomb Matrix representation was designed for the modeling of atomization energies and as a result requires information needed by the Hamiltonian, namely the set of Cartesian coordinates
 :math:`{ R } _ { I }` and nuclear charges :math:`Z _ { I }`. With this information the Coulomb matrix :math:`M` is built
 
-.. image:: cm.svg
+.. math::
+    M_{ij} = \left\{
+    \begin{array}{l l l }
+      0.5 Z_{I}^{2.4} &\mathrm{for} &I = J \\
+      \frac{Z_I Z_J}{\left|\mathbf{R}_I \mathbf{R}_J\right|} &\mathrm{for} &I \neq J \\
+    \end{array} \right.
 
 where the off-diagonal elements correspond to the Coulomb repulsion between :math:`I` and :math:`J`. The expression for the diagonal elements is the result of an encoded polynomial fit to the atomic energies and nuclear charge.
 
